@@ -9,4 +9,4 @@ find_library(NCURSES_MENU_LIBRARY NAMES menu)
 
 set(SOURCE_FILES main.c ts.h)
 add_executable(ts ${SOURCE_FILES})
-target_link_libraries(ts ${CURSES_LIBRARIES} ${NCURSES_PANEL_LIBRARY} ${NCURSES_MENU_LIBRARY} ${CDK_LIBRARY})
+target_link_libraries(ts ${CURSES_LIBRARIES} ${NCURSES_PANEL_LIBRARY} ${NCURSES_MENU_LIBRARY})
